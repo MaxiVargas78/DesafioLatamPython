@@ -1,4 +1,3 @@
-
 password = input("Ingrese una clave de al menos seis digitos:")
 if(len(password) < 6):
     if (password == "12345"):

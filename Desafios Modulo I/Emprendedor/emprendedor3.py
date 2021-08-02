@@ -12,10 +12,12 @@ def Emprendedor3():
         if Razon >= 1:
             print("Utilidad Actual: $"+str(int(Utilidad))+" Dolares.")
             print("Utilidad Pasada: $"+str(int(LastUtilidad))+" Dolares.")
+            print("La razon entre la utilidad actual y la anterior es:"+str(float(Razon)))
             print("Utilidades actuales superiores a las anteriores")
         else:
             print("Utilidad Actual: $"+str(int(Utilidad))+" Dolares.")
             print("Utilidad Pasada: $"+str(int(LastUtilidad))+" Dolares.")
+            print("La razon entre la utilidad actual y la anterior es:"+str(float(Razon)))
             print("Utilidades actuales inferiores a las anteriores")
 
     elif len(argv) == 5:
@@ -29,10 +31,12 @@ def Emprendedor3():
         if Razon1 >= 1:
             print("Utilidad Actual: $"+str(int(Utilidad))+" Dolares.")
             print("Utilidad Pasada: $"+str(int(LastUtilidad))+" Dolares.")
+            print("La razon entre la utilidad actual y la anterior es:"+str(float(Razon1)))
             print("Utilidades actuales superiores a las anteriores")
         else:
             print("Utilidad Actual: $"+str(int(Utilidad))+" Dolares.")
             print("Utilidad Pasada: $"+str(int(LastUtilidad))+" Dolares.")
+            print("La razon entre la utilidad actual y la anterior es:"+str(float(Razon1)))
             print("Utilidades actuales inferiores a las anteriores")
 
 Emprendedor3()
