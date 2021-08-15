@@ -13,3 +13,8 @@ ventas = {
 "Diciembre": 21000,
 }
 
+for i in ventas:
+    if (ventas[i] > 45000):
+        print(ventas[i])
+    else:
+        None
