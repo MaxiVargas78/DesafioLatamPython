@@ -4,14 +4,12 @@ import json
 url = "https://reqres.in/api/users"
 url2 = "https://reqres.in/api/users/2"
 
-payload = {}
 #Se utiliza json.dumps dada la recomendación del profesor, el diccionario de respuesta en cada caso se verá completo sin el
 # json.dumps, con este último, no refleja los parametros del payload dentro de la respuesta.
+payload = {}
 payload1=json.dumps({"name": "ignacio", "job":"Profesor"})
 payload2=json.dumps({"name": "morpheus", "resident": "zion"})
 headers = {}
-
-print(payload2)
 
 users_data = requests.request("GET", url, headers=headers, data=payload)
 print(users_data.text)
